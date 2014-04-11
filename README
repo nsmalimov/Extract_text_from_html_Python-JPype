@@ -1,0 +1,9 @@
+
+
+JPype is an effort to allow python programs full access to java class libraries. This is achieved not through re-implementing Python, as Jython/JPython has done, but rather through interfacing at the native level in both Virtual Machines.
+Eventually, it should be possible to replace Java with python in many, though not all, situations. JSP, Servlets, RMI servers and IDE plugins are good candidates.
+Once this integration is achieved, a second phase will be started to separate the Java logic from the Python logic, eventually allowing the bridging technology to be used in other environments, I.E. Ruby, Perl, COM, etc ...
+
+HTML or HyperText Markup Language is the standard markup language used to create web pages.
+
+HTML is written in the form of HTML elements consisting of tags enclosed in angle brackets (like <html>). HTML tags most commonly come in pairs like <h1> and </h1>, although some tags represent empty elements and so are unpaired, for example <img>. The first tag in a pair is the start tag, and the second tag is the end tag (they are also called opening tags and closing tags).
