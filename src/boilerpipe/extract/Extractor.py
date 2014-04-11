@@ -20,7 +20,7 @@ for line in Line:
       adress = adress1.strip("\n")
       sites = sites1.strip("\n")
       extractor = Extractor(extractor = 'ArticleExtractor', url=sites)
-      file_ex = open('/home/partizan/ExtractSites/' + adress + '/' + number + 'forclass.txt', 'w')
+      file_ex = open('ExtractSites/' + adress + '/' + number + 'forclass.txt', 'w')
       file_ex.write(extractor.getText().encode("UTF-8"))
       file_ex.close()
       file_extract.write(line)
