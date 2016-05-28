@@ -28,5 +28,3 @@ for line in Line:
        print line
 file_base.close()
 file_extract.close()
-
-
