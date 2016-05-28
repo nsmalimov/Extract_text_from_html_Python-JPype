@@ -13,6 +13,7 @@ def unpack_line(line):
 file_base = open('Main_base.txt', 'r')
 Line=file_base.readlines()
 file_extract = open('Dbase_exctract.txt', 'w')
+
 for line in Line:
      try:
       number1, adress1, sites1 = unpack_line(line)
@@ -26,5 +27,6 @@ for line in Line:
       file_extract.write(line)
      except:
        print line
+       
 file_base.close()
 file_extract.close()
