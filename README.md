@@ -11,7 +11,7 @@ eventually allowing the bridging technology to be used in other environments, I.
 <p>HTML or HyperText Markup Language is the standard markup language used to create web pages.</p>
 
 <p>HTML is written in the form of HTML elements consisting of tags enclosed in angle brackets (like <html>).</p>
-<p>HTML tags most commonly come in pairs like "<h1>" and "</h1>", although some tags represent empty elements and 
+<p>HTML tags most commonly come in pairs like "h1" and "/h1", although some tags represent empty elements and 
 so are unpaired, for example <img>. The first tag in a pair is the start tag, and the second tag is the end 
 tag (they are also called opening tags and closing tags).</p>
 
