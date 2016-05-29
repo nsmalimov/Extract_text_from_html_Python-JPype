@@ -12,7 +12,7 @@ def unpack_line(line):
      return number, categories, url 
 
 file_base = open('Main_base.txt', 'r')
-Line=file_base.readlines()
+Line = file_base.readlines()
 file_extract = open('Dbase_exctract.txt', 'w')
 
 for line in Line:
