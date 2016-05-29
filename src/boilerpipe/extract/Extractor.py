@@ -1,6 +1,7 @@
+# -*- coding: utf-8
 from boilerpipe.extract import Extractor
 import string
-# -*- coding: utf-8
+
 
 def unpack_line(line):
      line = string.replace(line, " ", " ")
